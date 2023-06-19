@@ -5,7 +5,6 @@ import { styles } from "./styles";
 import theme from "../../theme";
 
 export default function MapShow({ markerPosition }) {
-  const [isMapReady, setIsMapReady] = useState(false);
   const mapRef = useRef(null);
 
   useEffect(() => {

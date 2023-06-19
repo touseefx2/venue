@@ -15,7 +15,7 @@ const hitApi = (endPoint, reqType, params, token) => {
       baseURL: BASE_URL,
     });
   }
-  console.log(endPoint);
+
   switch (reqType) {
     case "get":
       return new Promise((resolve, reject) => {

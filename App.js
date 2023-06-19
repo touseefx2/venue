@@ -5,6 +5,7 @@ import {
   FlatList,
   StyleSheet,
   View,
+  LogBox,
 } from "react-native";
 import { StatusBar } from "expo-status-bar";
 import VenueCard from "./src/screens/VenueCard";
@@ -17,6 +18,7 @@ import {
   responsiveFontSize,
   responsiveHeight,
 } from "react-native-responsive-dimensions";
+LogBox.ignoreAllLogs(true);
 
 export default observer(App);
 
